@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd $HOME
 DIR=$(mktemp -d)
 git clone https://github.com/adamhammes/hammes.io $DIR
 cd $DIR
